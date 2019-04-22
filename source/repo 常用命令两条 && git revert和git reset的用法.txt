@@ -1,0 +1,36 @@
+repo 常用命令两条 && git revert和git reset的用法
+
+版权声明：本文为博主原创文章，未经博主允许不得转载。	https://blog.csdn.net/wed110/article/details/52179386
+1.repo　回退到具体某一天的提交
+
+repo forall -c 'ID=`git log --before="2016-06-28 23:00" --after="2010-01-01" -1 --pretty=format:"%H"`;git reset --hard $ID'
+
+
+
+2. repo 回退当前所有的修改，和服务器上代码拉下来一样
+
+repo forall -c "git clean -df" && repo forall -c "git checkout ." && repo sync -j8
+
+
+
+3. git 回退到某一条的提交 
+
+git reset --hard  commitID 
+
+
+
+4. git revert 是生成一个新的提交来撤销某次提交，此次提交之前的commit都会被保留
+
+git revert commitID
+
+
+
+5.查找某条信息
+
+ find -name '*'|xargs grep "  grep "MODEM_OTP_SUPPORT" --color
+
+6.查找并且显示大小
+
+find ./ -name "*.so" -exec ls -l {} \;
+
+find  -name '*odex*' -o -name '*odex*' |xargs  du sh {}

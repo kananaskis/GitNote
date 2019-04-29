@@ -1,0 +1,158 @@
+Archive member included because of file (symbol)
+
+/home/oneplus/Qualcomm/Hexagon_SDK/3.4.3//libs/common/rpcmem/android_Release/ship/rpcmem.a(rpcmem_android.o)
+                              android_Release/calculator_test.o (rpcmem_init)
+
+Discarded input sections
+
+ .note.GNU-stack
+                0x00000000        0x0 /home/oneplus/Qualcomm/Hexagon_SDK/3.4.3//tools/android-ndk-r14b/platforms/android-21/arch-arm/usr/lib/crtbegin_dynamic.o
+ .note.GNU-stack
+                0x00000000        0x0 /home/oneplus/Qualcomm/Hexagon_SDK/3.4.3//tools/android-ndk-r14b/platforms/android-21/arch-arm/usr/lib/crtend_android.o
+ .note.GNU-stack
+                0x00000000        0x0 android_Release/calculator_main.o
+ .note.GNU-stack
+                0x00000000        0x0 android_Release/calculator_test.o
+ .note.GNU-stack
+                0x00000000        0x0 /home/oneplus/Qualcomm/Hexagon_SDK/3.4.3//libs/common/rpcmem/android_Release/ship/rpcmem.a(rpcmem_android.o)
+
+Memory map
+
+ ** file header
+                0x00000000       0x34
+ ** segment headers
+                0x00000034      0x100
+
+.interp         0x00000134       0x13
+ ** fill        0x00000134       0x13
+
+.note.android.ident
+                0x00000148       0x98
+ .note.android.ident
+                0x00000148       0x98 /home/oneplus/Qualcomm/Hexagon_SDK/3.4.3//tools/android-ndk-r14b/platforms/android-21/arch-arm/usr/lib/crtbegin_dynamic.o
+
+.dynsym         0x000001e0      0x200
+ ** dynsym      0x000001e0      0x200
+
+.dynstr         0x000003e0      0x1ae
+ ** string table
+                0x000003e0      0x1ae
+
+.hash           0x00000590       0xcc
+ ** hash        0x00000590       0xcc
+
+.gnu.version    0x0000065c       0x40
+ ** versions    0x0000065c       0x40
+
+.gnu.version_r  0x0000069c       0x40
+ ** version refs
+                0x0000069c       0x40
+
+.rel.dyn        0x000006dc       0x48
+ ** dynamic relocs
+                0x000006dc       0x48
+ ** dynamic relocs
+                0x00000724        0x0
+
+.rel.plt        0x00000724       0xc0
+ ** dynamic relocs
+                0x00000724       0xc0
+
+.plt            0x000007e4      0x134
+ ** PLT         0x000007e4      0x134
+
+.text           0x00000918      0xd18
+ .text.startup  0x00000918       0x68 android_Release/calculator_main.o
+                0x00000919                main
+ .text          0x00000980       0xa8 /home/oneplus/Qualcomm/Hexagon_SDK/3.4.3//tools/android-ndk-r14b/platforms/android-21/arch-arm/usr/lib/crtbegin_dynamic.o
+                0x00000980                __atexit_handler_wrapper
+                0x0000098c                _start
+                0x00000a08                atexit
+ .text          0x00000a28        0x0 /home/oneplus/Qualcomm/Hexagon_SDK/3.4.3//tools/android-ndk-r14b/platforms/android-21/arch-arm/usr/lib/crtend_android.o
+ .text          0x00000a28        0x0 android_Release/calculator_main.o
+ .text          0x00000a28      0x118 android_Release/calculator_test.o
+                0x00000a29                local_calculator_sum
+                0x00000a59                calculator_test
+ .text          0xffffffffffffffff      0xab0 /home/oneplus/Qualcomm/Hexagon_SDK/3.4.3//libs/common/rpcmem/android_Release/ship/rpcmem.a(rpcmem_android.o)
+                0x00001031                rpcmem_init
+                0x000010ed                rpcmem_deinit
+                0x00001115                rpcmem_alloc_internal
+                0x000014b5                rpcmem_alloc
+                0x000014b9                rpcmem_free_internal
+                0x00001589                rpcmem_free
+                0x0000158d                rpcmem_to_fd_internal
+                0x000015ed                rpcmem_to_fd
+
+.rodata         0x00001630      0xb54
+ ** merge strings
+                0x00001630      0xb54
+
+.fini_array     0x00003e28        0x8
+ .fini_array    0x00003e28        0x4 /home/oneplus/Qualcomm/Hexagon_SDK/3.4.3//tools/android-ndk-r14b/platforms/android-21/arch-arm/usr/lib/crtbegin_dynamic.o
+                0x00003e28                __FINI_ARRAY__
+ .fini_array    0x00003e2c        0x4 /home/oneplus/Qualcomm/Hexagon_SDK/3.4.3//tools/android-ndk-r14b/platforms/android-21/arch-arm/usr/lib/crtend_android.o
+
+.init_array     0x00003e30       0x10
+ .init_array    0x00003e30        0x4 /home/oneplus/Qualcomm/Hexagon_SDK/3.4.3//tools/android-ndk-r14b/platforms/android-21/arch-arm/usr/lib/crtbegin_dynamic.o
+                0x00003e30                __INIT_ARRAY__
+ .init_array    0x00003e34        0x4 /home/oneplus/Qualcomm/Hexagon_SDK/3.4.3//tools/android-ndk-r14b/platforms/android-21/arch-arm/usr/lib/crtend_android.o
+ .ctors         0x00003e38        0x4 /home/oneplus/Qualcomm/Hexagon_SDK/3.4.3//tools/android-ndk-r14b/platforms/android-21/arch-arm/usr/lib/crtbegin_dynamic.o
+                0x00003e38                __CTOR_LIST__
+ .ctors         0x00003e3c        0x4 /home/oneplus/Qualcomm/Hexagon_SDK/3.4.3//tools/android-ndk-r14b/platforms/android-21/arch-arm/usr/lib/crtend_android.o
+
+.preinit_array  0x00003e40        0x8
+ .preinit_array
+                0x00003e40        0x4 /home/oneplus/Qualcomm/Hexagon_SDK/3.4.3//tools/android-ndk-r14b/platforms/android-21/arch-arm/usr/lib/crtbegin_dynamic.o
+                0x00003e40                __PREINIT_ARRAY__
+ .preinit_array
+                0x00003e44        0x4 /home/oneplus/Qualcomm/Hexagon_SDK/3.4.3//tools/android-ndk-r14b/platforms/android-21/arch-arm/usr/lib/crtend_android.o
+
+.dynamic        0x00003e48      0x128
+ ** dynamic     0x00003e48      0x128
+
+.got            0x00003f70       0x90
+ ** GOT         0x00003f70       0x24
+ ** GOT PLT     0x00003f94       0x6c
+ ** GOT IRELATIVE PLT
+                0x00004000        0x0
+
+.data           0x00004000        0x0
+ .data          0x00004000        0x0 /home/oneplus/Qualcomm/Hexagon_SDK/3.4.3//tools/android-ndk-r14b/platforms/android-21/arch-arm/usr/lib/crtbegin_dynamic.o
+ .data          0x00004000        0x0 /home/oneplus/Qualcomm/Hexagon_SDK/3.4.3//tools/android-ndk-r14b/platforms/android-21/arch-arm/usr/lib/crtend_android.o
+ .data          0x00004000        0x0 android_Release/calculator_main.o
+ .data          0x00004000        0x0 android_Release/calculator_test.o
+ .data          0x00004000        0x0 /home/oneplus/Qualcomm/Hexagon_SDK/3.4.3//libs/common/rpcmem/android_Release/ship/rpcmem.a(rpcmem_android.o)
+
+.bss            0x00004000       0x1c
+ .bss           0x00004000        0x4 /home/oneplus/Qualcomm/Hexagon_SDK/3.4.3//tools/android-ndk-r14b/platforms/android-21/arch-arm/usr/lib/crtbegin_dynamic.o
+                0x00004000                __dso_handle
+ .bss           0x00004004        0x0 /home/oneplus/Qualcomm/Hexagon_SDK/3.4.3//tools/android-ndk-r14b/platforms/android-21/arch-arm/usr/lib/crtend_android.o
+ .bss           0x00004004        0x0 android_Release/calculator_main.o
+ .bss           0x00004004        0x0 android_Release/calculator_test.o
+ .bss           0x00004004       0x18 /home/oneplus/Qualcomm/Hexagon_SDK/3.4.3//libs/common/rpcmem/android_Release/ship/rpcmem.a(rpcmem_android.o)
+
+.comment        0x00000000       0x28
+ ** merge strings
+                0x00000000       0x28
+
+.note.gnu.gold-version
+                0x00000000       0x1c
+ ** note header
+                0x00000000       0x10
+ ** fill        0x00000010        0x9
+ ** zero fill   0x00000019        0x3
+
+.ARM.attributes
+                0x00000000       0x36
+ ** attributes  0x00000000       0x36
+
+.symtab         0x00000000      0x680
+ ** symtab      0x00000000      0x680
+
+.strtab         0x00000000      0x386
+ ** string table
+                0x00000000      0x386
+
+.shstrtab       0x00000000       0xf9
+ ** string table
+                0x00000000       0xf9

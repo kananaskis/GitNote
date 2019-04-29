@@ -1,0 +1,111 @@
+# Linker from QuIC LLVM Hexagon Clang version Version 8.3.02
+# Linker based on LLVM version: 7.0
+# Notable linker command/script options:
+# CPU Architecture Version: hexagonv65
+# Target triple environment for the link: unknown
+# Maximum GP size: 0
+# Link type: Dynamic and Bsymbolic set
+# ABI Page Size: 0x1000
+# CommandLine : /home/oneplus/Qualcomm/Hexagon_SDK/3.4.3/tools/HEXAGON_Tools/8.3.02/Tools/bin/hexagon-link -z relro --hash-style=sysv -march=hexagon -mcpu=hexagonv65 -shared -call_shared -G0 -o hexagon_Release_dynamic_toolv83_v65/libcalculator_skel.so /home/oneplus/Qualcomm/Hexagon_SDK/3.4.3/tools/HEXAGON_Tools/8.3.02/Tools/bin/../target/hexagon/lib/v65/G0/pic/initS.o -L/home/oneplus/Qualcomm/Hexagon_SDK/3.4.3/tools/HEXAGON_Tools/8.3.02/Tools/bin/../target/hexagon/lib/v65/G0/pic -L/home/oneplus/Qualcomm/Hexagon_SDK/3.4.3/tools/HEXAGON_Tools/8.3.02/Tools/bin/../target/hexagon/lib/v65/G0 -L/home/oneplus/Qualcomm/Hexagon_SDK/3.4.3/tools/HEXAGON_Tools/8.3.02/Tools/bin/../target/hexagon/lib/v65 -L/home/oneplus/Qualcomm/Hexagon_SDK/3.4.3/tools/HEXAGON_Tools/8.3.02/Tools/bin/../target/hexagon/lib --no-threads -Bsymbolic --wrap=malloc --wrap=calloc --wrap=free --wrap=realloc --wrap=memalign --wrap=__stack_chk_fail -lc -Map=hexagon_Release_dynamic_toolv83_v65/libcalculator_skel.so.map -soname=libcalculator_skel.so --start-group hexagon_Release_dynamic_toolv83_v65/calculator_skel.o hexagon_Release_dynamic_toolv83_v65/calculator_imp.o --end-group --start-group -lgcc --end-group /home/oneplus/Qualcomm/Hexagon_SDK/3.4.3/tools/HEXAGON_Tools/8.3.02/Tools/bin/../target/hexagon/lib/v65/G0/pic/finiS.o 
+
+Linker Script and memory map
+LOAD /home/oneplus/Qualcomm/Hexagon_SDK/3.4.3/tools/HEXAGON_Tools/8.3.02/Tools/bin/../target/hexagon/lib/v65/G0/pic/initS.o[v65]
+LOAD /home/oneplus/Qualcomm/Hexagon_SDK/3.4.3/tools/HEXAGON_Tools/8.3.02/Tools/bin/../target/hexagon/lib/v65/G0/pic/libc.so[v65]
+START GROUP
+LOAD hexagon_Release_dynamic_toolv83_v65/calculator_skel.o[v65]
+LOAD hexagon_Release_dynamic_toolv83_v65/calculator_imp.o[v65]
+END GROUP
+START GROUP
+LOAD /home/oneplus/Qualcomm/Hexagon_SDK/3.4.3/tools/HEXAGON_Tools/8.3.02/Tools/bin/../target/hexagon/lib/v65/G0/pic/libgcc.so[v65]
+END GROUP
+LOAD /home/oneplus/Qualcomm/Hexagon_SDK/3.4.3/tools/HEXAGON_Tools/8.3.02/Tools/bin/../target/hexagon/lib/v65/G0/pic/finiS.o[v65]
+
+.dynsym	0xb4	0x100 # Offset: 0xb4, LMA: 0xb4, Alignment: 0x4
+
+.dynstr	0x1b4	0x106 # Offset: 0x1b4, LMA: 0x1b4, Alignment: 0x1
+
+.hash	0x2bc	0x88 # Offset: 0x2bc, LMA: 0x2bc, Alignment: 0x4
+
+.rela.dyn	0x344	0x9c # Offset: 0x344, LMA: 0x344, Alignment: 0x4
+
+.rela.plt	0x3e0	0x3c # Offset: 0x3e0, LMA: 0x3e0, Alignment: 0x4
+
+.init	0x420	0x6c # Offset: 0x420, LMA: 0x420, Alignment: 0x20
+.init	0x420	0x6c	/home/oneplus/Qualcomm/Hexagon_SDK/3.4.3/tools/HEXAGON_Tools/8.3.02/Tools/bin/../target/hexagon/lib/v65/G0/pic/initS.o	#SHT_PROGBITS,SHF_ALLOC|SHF_EXECINSTR,32
+	0x420		_init
+
+.plt	0x490	0x80 # Offset: 0x490, LMA: 0x490, Alignment: 0x10
+
+.text	0x520	0x1bc # Offset: 0x520, LMA: 0x520, Alignment: 0x20
+.text.__cxa_finalize_stub	0x520	0x30	/home/oneplus/Qualcomm/Hexagon_SDK/3.4.3/tools/HEXAGON_Tools/8.3.02/Tools/bin/../target/hexagon/lib/v65/G0/pic/initS.o	#SHT_PROGBITS,SHF_ALLOC|SHF_EXECINSTR,32
+	0x520		__cxa_finalize_stub
+	0x548		__dso_handle
+.text	0x550	0xc8	hexagon_Release_dynamic_toolv83_v65/calculator_skel.o	#SHT_PROGBITS,SHF_ALLOC|SHF_EXECINSTR,16
+	0x550		calculator_skel_invoke
+PADDING_ALIGNMENT	0x618	0x8	0x0
+.text	0x620	0xbc	hexagon_Release_dynamic_toolv83_v65/calculator_imp.o	#SHT_PROGBITS,SHF_ALLOC|SHF_EXECINSTR,16
+	0x620		calculator_sum
+	0x6a0		_HAP_debug_v2
+
+.fini	0x6e0	0x44 # Offset: 0x6e0, LMA: 0x6e0, Alignment: 0x20
+.fini	0x6e0	0x44	/home/oneplus/Qualcomm/Hexagon_SDK/3.4.3/tools/HEXAGON_Tools/8.3.02/Tools/bin/../target/hexagon/lib/v65/G0/pic/finiS.o	#SHT_PROGBITS,SHF_ALLOC|SHF_EXECINSTR,32
+	0x6e0		_fini
+
+.rodata	0x728	0x72 # Offset: 0x728, LMA: 0x728, Alignment: 0x8
+.rodata.methodStringsArrays	0x728	0x2	hexagon_Release_dynamic_toolv83_v65/calculator_skel.o	#SHT_PROGBITS,SHF_ALLOC,2
+	0x728		methodStringsArrays
+.rodata.methodStrings	0x72a	0x6	hexagon_Release_dynamic_toolv83_v65/calculator_skel.o	#SHT_PROGBITS,SHF_ALLOC,2
+	0x72a		methodStrings
+.rodata.strings	0x730	0xd	hexagon_Release_dynamic_toolv83_v65/calculator_skel.o	#SHT_PROGBITS,SHF_ALLOC,8
+	0x730		strings
+PADDING_ALIGNMENT	0x73d	0x3	0x0
+.rodata.types	0x740	0x10	hexagon_Release_dynamic_toolv83_v65/calculator_skel.o	#SHT_PROGBITS,SHF_ALLOC,8
+	0x740		types
+.rodata.str1.1	0x750	0x11	hexagon_Release_dynamic_toolv83_v65/calculator_imp.o	#SHT_PROGBITS,SHF_ALLOC|SHF_MERGE|SHF_STRINGS,1
+	0x750		.L.str
+.rodata.str1.1	0x761	0x39	hexagon_Release_dynamic_toolv83_v65/calculator_imp.o	#SHT_PROGBITS,SHF_ALLOC|SHF_MERGE|SHF_STRINGS,1
+	0x761		.L.str.1
+
+.eh_frame	0x7a0	0x4 # Offset: 0x7a0, LMA: 0x7a0, Alignment: 0x20
+.eh_frame	0x7a0	0x4	/home/oneplus/Qualcomm/Hexagon_SDK/3.4.3/tools/HEXAGON_Tools/8.3.02/Tools/bin/../target/hexagon/lib/v65/G0/pic/finiS.o	#SHT_PROGBITS,SHF_ALLOC,1
+	0x7a0		__EH_FRAME_END__
+
+.data.rel.ro	0x1000	0x68 # Offset: 0x1000, LMA: 0x1000, Alignment: 0x8
+.data.rel.ro.methodArrays	0x1000	0x4	hexagon_Release_dynamic_toolv83_v65/calculator_skel.o	#SHT_PROGBITS,SHF_ALLOC|SHF_WRITE,4
+	0x1000		methodArrays
+.data.rel.ro.calculator_slim	0x1004	0x1c	hexagon_Release_dynamic_toolv83_v65/calculator_skel.o	#SHT_PROGBITS,SHF_ALLOC|SHF_WRITE,4
+	0x1004		calculator_slim
+.data.rel.ro.methods	0x1020	0x1c	hexagon_Release_dynamic_toolv83_v65/calculator_skel.o	#SHT_PROGBITS,SHF_ALLOC|SHF_WRITE,8
+	0x1020		methods
+PADDING_ALIGNMENT	0x103c	0x4	0x0
+.data.rel.ro.parameterArrays	0x1040	0x8	hexagon_Release_dynamic_toolv83_v65/calculator_skel.o	#SHT_PROGBITS,SHF_ALLOC|SHF_WRITE,8
+	0x1040		parameterArrays
+.data.rel.ro.parameters	0x1048	0x20	hexagon_Release_dynamic_toolv83_v65/calculator_skel.o	#SHT_PROGBITS,SHF_ALLOC|SHF_WRITE,8
+	0x1048		parameters
+
+.ctors	0x1068	0x8 # Offset: 0x1068, LMA: 0x1068, Alignment: 0x4
+.ctors	0x1068	0x4	/home/oneplus/Qualcomm/Hexagon_SDK/3.4.3/tools/HEXAGON_Tools/8.3.02/Tools/bin/../target/hexagon/lib/v65/G0/pic/initS.o	#SHT_PROGBITS,SHF_ALLOC|SHF_WRITE,4
+	0x1068		__CTOR_LIST__
+.ctors	0x106c	0x4	/home/oneplus/Qualcomm/Hexagon_SDK/3.4.3/tools/HEXAGON_Tools/8.3.02/Tools/bin/../target/hexagon/lib/v65/G0/pic/finiS.o	#SHT_PROGBITS,SHF_ALLOC|SHF_WRITE,1
+	0x106c		__CTOR_END__
+
+.dtors	0x1070	0xc # Offset: 0x1070, LMA: 0x1070, Alignment: 0x4
+.dtors	0x1070	0x8	/home/oneplus/Qualcomm/Hexagon_SDK/3.4.3/tools/HEXAGON_Tools/8.3.02/Tools/bin/../target/hexagon/lib/v65/G0/pic/initS.o	#SHT_PROGBITS,SHF_ALLOC|SHF_WRITE,4
+	0x1070		__DTOR_LIST__
+.dtors	0x1078	0x4	/home/oneplus/Qualcomm/Hexagon_SDK/3.4.3/tools/HEXAGON_Tools/8.3.02/Tools/bin/../target/hexagon/lib/v65/G0/pic/finiS.o	#SHT_PROGBITS,SHF_ALLOC|SHF_WRITE,1
+	0x1078		__DTOR_END__
+
+.dynamic	0x107c	0xb0 # Offset: 0x107c, LMA: 0x107c, Alignment: 0x4
+
+.got	0x112c	0xc # Offset: 0x112c, LMA: 0x112c, Alignment: 0x4
+
+.got.plt	0x2138	0x24 # Offset: 0x2138, LMA: 0x2138, Alignment: 0x8
+
+.comment	0x215c	0x69 # Offset: 0x215c, Alignment: 0x1
+.comment	0x219a	0x2b	Linker Version	#SHT_PROGBITS,SHF_MERGE|SHF_STRINGS,1
+
+.shstrtab	0x21c5	0xa9 # Offset: 0x21c5, Alignment: 0x1
+
+.symtab	0x2270	0x300 # Offset: 0x2270, Alignment: 0x4
+
+.strtab	0x2570	0x23a # Offset: 0x2570, Alignment: 0x1

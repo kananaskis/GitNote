@@ -1,0 +1,123 @@
+Archive member included because of file (symbol)
+
+/home/oneplus/Qualcomm/Hexagon_SDK/3.4.3//libs/common/rpcmem/android_Release/ship/rpcmem.a(rpcmem_android.o)
+                              android_Release/calculator_test.o (rpcmem_init)
+
+Discarded input sections
+
+ .note.GNU-stack
+                0x00000000        0x0 android_Release/calculator_test_main.o
+ .note.GNU-stack
+                0x00000000        0x0 android_Release/calculator_test.o
+ .note.GNU-stack
+                0x00000000        0x0 /home/oneplus/Qualcomm/Hexagon_SDK/3.4.3//libs/common/rpcmem/android_Release/ship/rpcmem.a(rpcmem_android.o)
+
+Memory map
+
+ ** file header
+                0x00000000       0x34
+ ** segment headers
+                0x00000034       0xe0
+
+.interp         0x00000114       0x13
+ ** fill        0x00000114       0x13
+
+.dynsym         0x00000128      0x230
+ ** dynsym      0x00000128      0x230
+
+.dynstr         0x00000358      0x213
+ ** string table
+                0x00000358      0x213
+
+.hash           0x0000056c       0xd8
+ ** hash        0x0000056c       0xd8
+
+.gnu.version    0x00000644       0x46
+ ** versions    0x00000644       0x46
+
+.gnu.version_d  0x0000068c       0x1c
+ ** version defs
+                0x0000068c       0x1c
+
+.gnu.version_r  0x000006a8       0x40
+ ** version refs
+                0x000006a8       0x40
+
+.rel.dyn        0x000006e8       0x18
+ ** dynamic relocs
+                0x000006e8       0x18
+ ** dynamic relocs
+                0x00000700        0x0
+
+.rel.plt        0x00000700       0xa0
+ ** dynamic relocs
+                0x00000700       0xa0
+
+.plt            0x000007a0      0x104
+ ** PLT         0x000007a0      0x104
+
+.text           0x000008a4      0xc8c
+ .text.startup  0x000008a4       0x84 android_Release/calculator_test_main.o
+                0x000008a5                main
+ .text          0x00000928        0x0 android_Release/calculator_test_main.o
+ .text          0x00000928      0x118 android_Release/calculator_test.o
+                0x00000929                local_calculator_sum
+                0x00000959                calculator_test
+ .text          0xffffffffffffffff      0xab0 /home/oneplus/Qualcomm/Hexagon_SDK/3.4.3//libs/common/rpcmem/android_Release/ship/rpcmem.a(rpcmem_android.o)
+                0x00000f31                rpcmem_init
+                0x00000fed                rpcmem_deinit
+                0x00001015                rpcmem_alloc_internal
+                0x000013b5                rpcmem_alloc
+                0x000013b9                rpcmem_free_internal
+                0x00001489                rpcmem_free
+                0x0000148d                rpcmem_to_fd_internal
+                0x000014ed                rpcmem_to_fd
+
+.rodata         0x00001530      0xb84
+ ** merge strings
+                0x00001530      0xb84
+
+.dynamic        0x00003e98      0x100
+ ** dynamic     0x00003e98      0x100
+
+.got            0x00003f98       0x68
+ ** GOT         0x00003f98        0xc
+ ** GOT PLT     0x00003fa4       0x5c
+ ** GOT IRELATIVE PLT
+                0x00004000        0x0
+
+.data           0x00004000        0x0
+ .data          0x00004000        0x0 android_Release/calculator_test_main.o
+ .data          0x00004000        0x0 android_Release/calculator_test.o
+ .data          0x00004000        0x0 /home/oneplus/Qualcomm/Hexagon_SDK/3.4.3//libs/common/rpcmem/android_Release/ship/rpcmem.a(rpcmem_android.o)
+
+.bss            0x00004000       0x18
+ .bss           0x00004000        0x0 android_Release/calculator_test_main.o
+ .bss           0x00004000        0x0 android_Release/calculator_test.o
+ .bss           0x00004000       0x18 /home/oneplus/Qualcomm/Hexagon_SDK/3.4.3//libs/common/rpcmem/android_Release/ship/rpcmem.a(rpcmem_android.o)
+
+.comment        0x00000000       0x28
+ ** merge strings
+                0x00000000       0x28
+
+.note.gnu.gold-version
+                0x00000000       0x1c
+ ** note header
+                0x00000000       0x10
+ ** fill        0x00000010        0x9
+ ** zero fill   0x00000019        0x3
+
+.ARM.attributes
+                0x00000000       0x36
+ ** attributes  0x00000000       0x36
+
+.symtab         0x00000000      0x4a0
+ ** symtab      0x00000000      0x4a0
+
+.strtab         0x00000000      0x297
+ ** string table
+                0x00000000      0x297
+
+.shstrtab       0x00000000       0xcd
+ ** string table
+                0x00000000       0xcd

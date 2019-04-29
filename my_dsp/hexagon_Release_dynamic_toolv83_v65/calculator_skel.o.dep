@@ -1,0 +1,10 @@
+hexagon_Release_dynamic_toolv83_v65/calculator_skel.c:
+hexagon_Release_dynamic_toolv83_v65/calculator.h:
+/home/oneplus/Qualcomm/Hexagon_SDK/3.4.3/incs/stddef/AEEStdErr.h:
+/home/oneplus/Qualcomm/Hexagon_SDK/3.4.3/libs/common/remote/ship/hexagon_Release_dynamic_toolv83_v65/remote.h:
+/home/oneplus/Qualcomm/Hexagon_SDK/3.4.3/incs/stddef/AEEStdDef.h:
+hexagon_Release_dynamic_toolv83_v65/calculator_skel.o: hexagon_Release_dynamic_toolv83_v65/calculator_skel.c
+hexagon_Release_dynamic_toolv83_v65/calculator_skel.o: hexagon_Release_dynamic_toolv83_v65/calculator.h
+hexagon_Release_dynamic_toolv83_v65/calculator_skel.o: /home/oneplus/Qualcomm/Hexagon_SDK/3.4.3/incs/stddef/AEEStdErr.h
+hexagon_Release_dynamic_toolv83_v65/calculator_skel.o: /home/oneplus/Qualcomm/Hexagon_SDK/3.4.3/libs/common/remote/ship/hexagon_Release_dynamic_toolv83_v65/remote.h
+hexagon_Release_dynamic_toolv83_v65/calculator_skel.o: /home/oneplus/Qualcomm/Hexagon_SDK/3.4.3/incs/stddef/AEEStdDef.h

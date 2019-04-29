@@ -1,0 +1,108 @@
+
+Discarded input sections
+
+ .note.GNU-stack
+                0x00000000        0x0 android_Release/calculator_stub.o
+
+Memory map
+
+ ** file header
+                0x00000000       0x34
+ ** segment headers
+                0x00000034       0xe0
+
+.interp         0x00000114       0x13
+ ** fill        0x00000114       0x13
+
+.dynsym         0x00000128       0xc0
+ ** dynsym      0x00000128       0xc0
+
+.dynstr         0x000001e8       0xfb
+ ** string table
+                0x000001e8       0xfb
+
+.hash           0x000002e4       0x44
+ ** hash        0x000002e4       0x44
+
+.gnu.version    0x00000328       0x18
+ ** versions    0x00000328       0x18
+
+.gnu.version_d  0x00000340       0x1c
+ ** version defs
+                0x00000340       0x1c
+
+.gnu.version_r  0x0000035c       0x20
+ ** version refs
+                0x0000035c       0x20
+
+.rel.dyn        0x0000037c       0x48
+ ** dynamic relocs
+                0x0000037c       0x48
+ ** dynamic relocs
+                0x000003c4        0x0
+
+.rel.plt        0x000003c4       0x18
+ ** dynamic relocs
+                0x000003c4       0x18
+
+.plt            0x000003dc       0x38
+ ** PLT         0x000003dc       0x38
+
+.text           0x00000414       0xf0
+ .text          0xffffffffffffffff       0xe0 android_Release/calculator_stub.o
+                0x00000415                _calculator_atomic_CompareAndExchange
+                0x0000043d                _calculator_handle
+                0x00000495                calculator_skel_invoke
+                0x000004ad                calculator_sum
+
+.rodata         0x00000504       0x38
+ .rodata        0x00000504       0x2c android_Release/calculator_stub.o
+ ** merge strings
+                0x00000530        0xc
+
+.data.rel.ro.local
+                0x00001e8c       0x64
+ .data.rel.ro.local
+                0x00001e8c       0x64 android_Release/calculator_stub.o
+                0x00001e8c                calculator_slim
+
+.dynamic        0x00001ef0       0xf8
+ ** dynamic     0x00001ef0       0xf8
+
+.got            0x00001fe8       0x18
+ ** GOT         0x00001fe8        0x0
+ ** GOT PLT     0x00001fe8       0x18
+ ** GOT IRELATIVE PLT
+                0x00002000        0x0
+
+.data           0x00002000        0x4
+ .data          0x00002000        0x4 android_Release/calculator_stub.o
+
+.bss            0x00002004        0x0
+ .bss           0x00002004        0x0 android_Release/calculator_stub.o
+
+.comment        0x00000000       0x28
+ ** merge strings
+                0x00000000       0x28
+
+.note.gnu.gold-version
+                0x00000000       0x1c
+ ** note header
+                0x00000000       0x10
+ ** fill        0x00000010        0x9
+ ** zero fill   0x00000019        0x3
+
+.ARM.attributes
+                0x00000000       0x36
+ ** attributes  0x00000000       0x36
+
+.symtab         0x00000000      0x200
+ ** symtab      0x00000000      0x200
+
+.strtab         0x00000000      0x16a
+ ** string table
+                0x00000000      0x16a
+
+.shstrtab       0x00000000       0xe0
+ ** string table
+                0x00000000       0xe0

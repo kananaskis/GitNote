@@ -1,0 +1,10 @@
+android_Release/calculator_stub.c:
+android_Release/calculator.h:
+/home/oneplus/Qualcomm/Hexagon_SDK/3.4.3/incs/stddef/AEEStdErr.h:
+/home/oneplus/Qualcomm/Hexagon_SDK/3.4.3/libs/common/remote/ship/android_Release/remote.h:
+/home/oneplus/Qualcomm/Hexagon_SDK/3.4.3/incs/stddef/AEEStdDef.h:
+android_Release/calculator_stub.o: android_Release/calculator_stub.c
+android_Release/calculator_stub.o: android_Release/calculator.h
+android_Release/calculator_stub.o: /home/oneplus/Qualcomm/Hexagon_SDK/3.4.3/incs/stddef/AEEStdErr.h
+android_Release/calculator_stub.o: /home/oneplus/Qualcomm/Hexagon_SDK/3.4.3/libs/common/remote/ship/android_Release/remote.h
+android_Release/calculator_stub.o: /home/oneplus/Qualcomm/Hexagon_SDK/3.4.3/incs/stddef/AEEStdDef.h

@@ -1,0 +1,10 @@
+src/calculator_test_main.c:
+src/verify.h:
+android_Release/calculator.h:
+src/calculator_test.h:
+/home/oneplus/Qualcomm/Hexagon_SDK/3.4.3/incs/stddef/AEEStdDef.h:
+android_Release/calculator_test_main.o: src/calculator_test_main.c
+android_Release/calculator_test_main.o: src/verify.h
+android_Release/calculator_test_main.o: android_Release/calculator.h
+android_Release/calculator_test_main.o: src/calculator_test.h
+android_Release/calculator_test_main.o: /home/oneplus/Qualcomm/Hexagon_SDK/3.4.3/incs/stddef/AEEStdDef.h

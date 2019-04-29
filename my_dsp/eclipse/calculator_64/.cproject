@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="com.qualcomm.hexagon.ndk.config.q6.exe.debug.887449362">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.qualcomm.hexagon.ndk.config.q6.exe.debug.887449362" moduleId="org.eclipse.cdt.core.settings" name="NDK_Debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" description="" id="com.qualcomm.hexagon.ndk.config.q6.exe.debug.887449362" name="NDK_Debug" parent="com.qualcomm.hexagon.ndk.config.q6.exe.debug">
+					<folderInfo id="com.qualcomm.hexagon.ndk.config.q6.exe.debug.887449362." name="/" resourcePath="">
+						<toolChain id="com.qualcomm.hexagon.ndk.toolchain.q6.exe.debug.419620545" name="Android NDK Tool Chain" superClass="com.qualcomm.hexagon.ndk.toolchain.q6.exe.debug">
+							<targetPlatform id="com.qualcomm.hexagon.ndk.target.q6.platform.exe.debug.1056788232" name="Debug Platform" superClass="com.qualcomm.hexagon.ndk.target.q6.platform.exe.debug"/>
+							<builder buildPath="${workspace_loc:/calculator}/NDK_Debug" id="com.qualcomm.hexagon.ndk.target.q6.builder.exe.debug.336135574" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="CDT Internal Builder" superClass="com.qualcomm.hexagon.ndk.target.q6.builder.exe.debug"/>
+							<tool id="com.qualcomm.hexagon.ndk.tool.q6.archiver.base.329121221" name="Archiver" superClass="com.qualcomm.hexagon.ndk.tool.q6.archiver.base"/>
+							<tool command="aarch64-linux-android-g++" id="com.qualcomm.hexagon.ndk.tool.q6.cpp.compiler.exe.debug.808869531" name="C++ Compiler" superClass="com.qualcomm.hexagon.ndk.tool.q6.cpp.compiler.exe.debug">
+								<option id="com.qualcomm.hexagon.ndk.q6.cpp.compiler.exe.debug.option.optimization.level.1819325977" name="Optimization Level" superClass="com.qualcomm.hexagon.ndk.q6.cpp.compiler.exe.debug.option.optimization.level" value="com.qualcomm.hexagon.ndk.q6.cpp.compiler.optimization.level.none" valueType="enumerated"/>
+								<option id="com.qualcomm.hexagon.ndk.q6.cpp.compiler.exe.debug.option.debugging.level.521269780" name="Debug Level" superClass="com.qualcomm.hexagon.ndk.q6.cpp.compiler.exe.debug.option.debugging.level" value="com.qualcomm.hexagon.ndk.q6.cpp.compiler.debugging.level.max" valueType="enumerated"/>
+								<option id="com.qualcomm.hexagon.ndk.q6.cpp.compiler.option.include.paths.1504770336" name="Include paths (-I)" superClass="com.qualcomm.hexagon.ndk.q6.cpp.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${ANDROID_NDK_TOOLS_ROOT}/platforms/android-21/arch-arm64/usr/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_SDK_ROOT}/incs/stddef&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_SDK_ROOT}/incs&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_SDK_ROOT}/incs/qlist&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_SDK_ROOT}/incs/a1std&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_SDK_ROOT}/libs/common/rpcmem/inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_SDK_ROOT}/libs/common/adspmsgd/ship/android_Debug_aarch64&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_SDK_ROOT}/examples/common/calculator/inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_SDK_ROOT}/libs/common/remote/ship/android_Debug_aarch64&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_SDK_ROOT}/libs/common/atomic/inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/libcalculator_skel/src}&quot;"/>
+								</option>
+								<option id="com.qualcomm.hexagon.ndk.q6.cpp.compiler.option.other.other.1375001080" name="Other flags" superClass="com.qualcomm.hexagon.ndk.q6.cpp.compiler.option.other.other" value="-c -fmessage-length=0" valueType="string"/>
+								<option id="com.qualcomm.hexagon.ndk.q6.cpp.compiler.option.preprocessor.def.2037555842" name="Defined symbols (-D)" superClass="com.qualcomm.hexagon.ndk.q6.cpp.compiler.option.preprocessor.def" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="ANDROID"/>
+									<listOptionValue builtIn="false" value="_DEBUG"/>
+									<listOptionValue builtIn="false" value="_ANDROID_"/>
+								</option>
+								<inputType id="com.qualcomm.hexagon.ndk.tool.q6.cpp.compiler.input.58977928" superClass="com.qualcomm.hexagon.ndk.tool.q6.cpp.compiler.input"/>
+							</tool>
+							<tool command="aarch64-linux-android-gcc" commandLinePattern="${COMMAND} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT} ${INPUTS}" id="com.qualcomm.hexagon.ndk.tool.q6.c.compiler.exe.debug.1492499001" name="C Compiler" superClass="com.qualcomm.hexagon.ndk.tool.q6.c.compiler.exe.debug">
+								<option defaultValue="com.qualcomm.hexagon.ndk.q6.c.optimization.level.none" id="com.qualcomm.hexagon.ndk.q6.c.compiler.exe.debug.option.optimization.level.508640472" name="Optimization Level" superClass="com.qualcomm.hexagon.ndk.q6.c.compiler.exe.debug.option.optimization.level" valueType="enumerated"/>
+								<option id="com.qualcomm.hexagon.ndk.q6.c.compiler.exe.debug.option.debugging.level.515803690" name="Debug Level" superClass="com.qualcomm.hexagon.ndk.q6.c.compiler.exe.debug.option.debugging.level" value="com.qualcomm.hexagon.ndk.q6.c.debugging.level.max" valueType="enumerated"/>
+								<option id="com.qualcomm.hexagon.ndk.q6.c.compiler.option.include.paths.170482604" name="Include paths (-I)" superClass="com.qualcomm.hexagon.ndk.q6.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${ANDROID_NDK_TOOLS_ROOT}/platforms/android-21/arch-arm64/usr/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_SDK_ROOT}/incs/stddef&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_SDK_ROOT}/incs&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_SDK_ROOT}/incs/qlist&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_SDK_ROOT}/incs/a1std&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_SDK_ROOT}/libs/common/rpcmem/inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_SDK_ROOT}/libs/common/adspmsgd/ship/android_Debug_aarch64&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_SDK_ROOT}/examples/common/calculator/inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_SDK_ROOT}/libs/common/remote/ship/android_Debug_aarch64&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_SDK_ROOT}/libs/common/atomic/inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/libcalculator_skel/src}&quot;"/>
+								</option>
+								<option id="com.qualcomm.hexagon.ndk.q6.c.compiler.option.misc.other.1914685692" name="Other flags" superClass="com.qualcomm.hexagon.ndk.q6.c.compiler.option.misc.other" value="-c -fmessage-length=0" valueType="string"/>
+								<option id="com.qualcomm.hexagon.ndk.q6.c.compiler.option.preprocessor.def.symbols.1871036878" name="Defined symbols (-D)" superClass="com.qualcomm.hexagon.ndk.q6.c.compiler.option.preprocessor.def.symbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="ANDROID"/>
+									<listOptionValue builtIn="false" value="_DEBUG"/>
+									<listOptionValue builtIn="false" value="_ANDROID_"/>
+								</option>
+								<inputType id="com.qualcomm.hexagon.ndk.tool.q6.c.compiler.input.1458343946" superClass="com.qualcomm.hexagon.ndk.tool.q6.c.compiler.input"/>
+							</tool>
+							<tool id="com.qualcomm.hexagon.ndk.tool.q6.c.linker.exe.debug.2053080552" name="C Linker" superClass="com.qualcomm.hexagon.ndk.tool.q6.c.linker.exe.debug">
+								<option id="com.qualcomm.hexagon.ndk.q6.c.link.option.libs.1826765778" name="Libraries (-l)" superClass="com.qualcomm.hexagon.ndk.q6.c.link.option.libs" valueType="libs">
+									<listOptionValue builtIn="false" value="c"/>
+									<listOptionValue builtIn="false" value="gcc"/>
+									<listOptionValue builtIn="false" value="log"/>
+								</option>
+								<option id="com.qualcomm.hexagon.ndk.q6.c.link.option.paths.221351069" name="Library search path (-L)" superClass="com.qualcomm.hexagon.ndk.q6.c.link.option.paths" valueType="libPaths">
+									<listOptionValue builtIn="false" value="${ANDROID_NDK_TOOLS_ROOT}/platforms/android-14/arch-arm/usr/lib"/>
+								</option>
+								<option id="com.qualcomm.hexagon.ndk.q6.c.link.option.nostdlibs.1518036263" name="No startup or default libs (-nostdlib)" superClass="com.qualcomm.hexagon.ndk.q6.c.link.option.nostdlibs" value="true" valueType="boolean"/>
+							</tool>
+							<tool command="aarch64-linux-android-gcc" id="com.qualcomm.hexagon.ndk.tool.q6.cpp.linker.exe.debug.1702125494" name="C++ Linker" superClass="com.qualcomm.hexagon.ndk.tool.q6.cpp.linker.exe.debug">
+								<option id="com.qualcomm.hexagon.ndk.q6.cpp.link.option.libs.1431957048" name="Libraries (-l)" superClass="com.qualcomm.hexagon.ndk.q6.cpp.link.option.libs" valueType="libs">
+									<listOptionValue builtIn="false" value="c"/>
+									<listOptionValue builtIn="false" value="log"/>
+									<listOptionValue builtIn="false" value="dl"/>
+									<listOptionValue builtIn="false" value="m"/>
+									<listOptionValue builtIn="false" value="stdc++"/>
+									<listOptionValue builtIn="false" value="adsprpc"/>
+									<listOptionValue builtIn="false" value="gcc"/>
+								</option>
+								<option id="com.qualcomm.hexagon.ndk.q6.cpp.link.option.paths.123647240" name="Library search path (-L)" superClass="com.qualcomm.hexagon.ndk.q6.cpp.link.option.paths" valueType="libPaths">
+									<listOptionValue builtIn="false" value="${ANDROID_NDK_TOOLS_ROOT}/platforms/android-21/arch-arm64/usr/lib"/>
+									<listOptionValue builtIn="false" value="${HEXAGON_SDK_ROOT}/libs/common/remote/ship/android_Debug_aarch64"/>
+								</option>
+								<option id="com.qualcomm.hexagon.ndk.q6.cpp.link.option.flags.1421750888" name="Linker flags" superClass="com.qualcomm.hexagon.ndk.q6.cpp.link.option.flags" value="-fpie -fPIE -pie -march=armv7-a -Wl,-unresolved-symbols=ignore-in-shared-libs -Bdynamic ${ANDROID_NDK_TOOLS_ROOT}/platforms/android-21/arch-arm64/usr/lib/crtbegin_dynamic.o ${ANDROID_NDK_TOOLS_ROOT}/platforms/android-21/arch-arm64/usr/lib/crtend_android.o" valueType="string"/>
+								<option id="com.qualcomm.hexagon.ndk.q6.cpp.link.option.nostdlibs.1479275835" name="No startup or default libs (-nostdlib)" superClass="com.qualcomm.hexagon.ndk.q6.cpp.link.option.nostdlibs" value="true" valueType="boolean"/>
+								<option id="com.qualcomm.hexagon.ndk.q6.cpp.link.option.userobjs.1545520088" name="Other objects" superClass="com.qualcomm.hexagon.ndk.q6.cpp.link.option.userobjs" valueType="userObjs">
+									<listOptionValue builtIn="false" value="${HEXAGON_SDK_ROOT}/libs/common/adspmsgd/ship/android_Debug_aarch64/adspmsgd.a"/>
+								</option>
+								<inputType id="com.qualcomm.hexagon.ndk.tool.q6.cpp.linker.input.854061754" superClass="com.qualcomm.hexagon.ndk.tool.q6.cpp.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool command="aarch64-linux-android-as" id="com.qualcomm.hexagon.ndk.tool.q6.assembler.exe.debug.993412930" name="Assembler" superClass="com.qualcomm.hexagon.ndk.tool.q6.assembler.exe.debug">
+								<option id="com.qualcomm.hexagon.ndk.q6.assembler.option.debugging.level.369425934" name="Debug Level" superClass="com.qualcomm.hexagon.ndk.q6.assembler.option.debugging.level" value="com.qualcomm.hexagon.ndk.q6.asm.debugging.level.max" valueType="enumerated"/>
+								<inputType id="com.qualcomm.hexagon.ndk.tool.q6.assembler.input.2026282371" superClass="com.qualcomm.hexagon.ndk.tool.q6.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<fileInfo id="com.qualcomm.hexagon.ndk.config.q6.exe.debug.887449362.1648021785" name="atomic.c" rcbsApplicability="disable" resourcePath="src/atomic.c" toolsToInvoke="com.qualcomm.hexagon.ndk.tool.q6.c.compiler.exe.debug.1492499001.1356721935">
+						<tool id="com.qualcomm.hexagon.ndk.tool.q6.c.compiler.exe.debug.1492499001.1356721935" name="C Compiler" superClass="com.qualcomm.hexagon.ndk.tool.q6.c.compiler.exe.debug.1492499001"/>
+					</fileInfo>
+					<sourceEntries>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="com.qualcomm.hexagon.ndk.config.q6.exe.release.1129653246">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.qualcomm.hexagon.ndk.config.q6.exe.release.1129653246" moduleId="org.eclipse.cdt.core.settings" name="NDK_Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release" description="" id="com.qualcomm.hexagon.ndk.config.q6.exe.release.1129653246" name="NDK_Release" parent="com.qualcomm.hexagon.ndk.config.q6.exe.release">
+					<folderInfo id="com.qualcomm.hexagon.ndk.config.q6.exe.release.1129653246." name="/" resourcePath="">
+						<toolChain id="com.qualcomm.hexagon.ndk.toolchain.q6.exe.release.236834212" name="Android NDK Tool Chain" superClass="com.qualcomm.hexagon.ndk.toolchain.q6.exe.release">
+							<targetPlatform id="com.qualcomm.hexagon.ndk.target.q6.platform.exe.release.150968553" name="Debug Platform" superClass="com.qualcomm.hexagon.ndk.target.q6.platform.exe.release"/>
+							<builder buildPath="${workspace_loc:/calculator}/NDK_Release" id="com.qualcomm.hexagon.ndk.target.q6.builder.exe.release.931141028" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="CDT Internal Builder" superClass="com.qualcomm.hexagon.ndk.target.q6.builder.exe.release"/>
+							<tool id="com.qualcomm.hexagon.ndk.tool.q6.archiver.base.1606691970" name="Archiver" superClass="com.qualcomm.hexagon.ndk.tool.q6.archiver.base"/>
+							<tool command="aarch64-linux-android-g++" id="com.qualcomm.hexagon.ndk.tool.q6.cpp.compiler.exe.release.1577917960" name="C++ Compiler" superClass="com.qualcomm.hexagon.ndk.tool.q6.cpp.compiler.exe.release">
+								<option id="com.qualcomm.hexagon.ndk.q6.cpp.compiler.exe.release.option.optimization.level.660325471" name="Optimization Level" superClass="com.qualcomm.hexagon.ndk.q6.cpp.compiler.exe.release.option.optimization.level" value="com.qualcomm.hexagon.ndk.q6.cpp.compiler.optimization.level.most" valueType="enumerated"/>
+								<option id="com.qualcomm.hexagon.ndk.q6.cpp.compiler.exe.release.option.debugging.level.670076929" name="Debug Level" superClass="com.qualcomm.hexagon.ndk.q6.cpp.compiler.exe.release.option.debugging.level" value="com.qualcomm.hexagon.ndk.q6.cpp.compiler.debugging.level.none" valueType="enumerated"/>
+								<option id="com.qualcomm.hexagon.ndk.q6.cpp.compiler.option.include.paths.1905843799" name="Include paths (-I)" superClass="com.qualcomm.hexagon.ndk.q6.cpp.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${ANDROID_NDK_TOOLS_ROOT}/platforms/android-21/arch-arm64/usr/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_SDK_ROOT}/incs/stddef&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_SDK_ROOT}/incs&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_SDK_ROOT}/incs/qlist&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_SDK_ROOT}/incs/a1std&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_SDK_ROOT}/libs/common/rpcmem&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_SDK_ROOT}/libs/common/adspmsgd/ship/android_Debug_aarch64&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_SDK_ROOT}/examples/common/calculator/inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_SDK_ROOT}/libs/common/remote/ship/android_Debug_aarch64&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/libcalculator_skel/src}&quot;"/>
+								</option>
+								<inputType id="com.qualcomm.hexagon.ndk.tool.q6.cpp.compiler.input.145469319" superClass="com.qualcomm.hexagon.ndk.tool.q6.cpp.compiler.input"/>
+							</tool>
+							<tool command="aarch64-linux-android-gcc" id="com.qualcomm.hexagon.ndk.tool.q6.c.compiler.exe.release.1244380729" name="C Compiler" superClass="com.qualcomm.hexagon.ndk.tool.q6.c.compiler.exe.release">
+								<option defaultValue="com.qualcomm.hexagon.ndk.q6.c.optimization.level.most" id="com.qualcomm.hexagon.ndk.q6.c.compiler.exe.release.option.optimization.level.301826178" name="Optimization Level" superClass="com.qualcomm.hexagon.ndk.q6.c.compiler.exe.release.option.optimization.level" valueType="enumerated"/>
+								<option id="com.qualcomm.hexagon.ndk.q6.c.compiler.exe.release.option.debugging.level.961177877" name="Debug Level" superClass="com.qualcomm.hexagon.ndk.q6.c.compiler.exe.release.option.debugging.level" value="com.qualcomm.hexagon.ndk.q6.c.debugging.level.none" valueType="enumerated"/>
+								<option id="com.qualcomm.hexagon.ndk.q6.c.compiler.option.include.paths.1771166266" name="Include paths (-I)" superClass="com.qualcomm.hexagon.ndk.q6.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${ANDROID_NDK_TOOLS_ROOT}/platforms/android-21/arch-arm64/usr/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_SDK_ROOT}/incs/stddef&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_SDK_ROOT}/incs&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_SDK_ROOT}/incs/qlist&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_SDK_ROOT}/incs/a1std&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_SDK_ROOT}/libs/common/rpcmem&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_SDK_ROOT}/libs/common/adspmsgd/ship/android_Debug_aarch64&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_SDK_ROOT}/examples/common/calculator/inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${HEXAGON_SDK_ROOT}/libs/common/remote/ship/android_Debug_aarch64&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/libcalculator_skel/src}&quot;"/>
+								</option>
+								<option id="com.qualcomm.hexagon.ndk.q6.c.compiler.option.misc.other.1334388538" name="Other flags" superClass="com.qualcomm.hexagon.ndk.q6.c.compiler.option.misc.other" value="-c -fmessage-length=0" valueType="string"/>
+								<inputType id="com.qualcomm.hexagon.ndk.tool.q6.c.compiler.input.396344159" superClass="com.qualcomm.hexagon.ndk.tool.q6.c.compiler.input"/>
+							</tool>
+							<tool id="com.qualcomm.hexagon.ndk.tool.q6.c.linker.exe.release.1965205284" name="C Linker" superClass="com.qualcomm.hexagon.ndk.tool.q6.c.linker.exe.release">
+								<option id="com.qualcomm.hexagon.ndk.q6.c.link.option.libs.515899874" name="Libraries (-l)" superClass="com.qualcomm.hexagon.ndk.q6.c.link.option.libs" valueType="libs">
+									<listOptionValue builtIn="false" value="c"/>
+									<listOptionValue builtIn="false" value="gcc"/>
+									<listOptionValue builtIn="false" value="log"/>
+								</option>
+								<option id="com.qualcomm.hexagon.ndk.q6.c.link.option.paths.95761227" name="Library search path (-L)" superClass="com.qualcomm.hexagon.ndk.q6.c.link.option.paths" valueType="libPaths">
+									<listOptionValue builtIn="false" value="${ANDROID_NDK_TOOLS_ROOT}/platforms/android-14/arch-arm/usr/lib"/>
+								</option>
+								<option id="com.qualcomm.hexagon.ndk.q6.c.link.option.nostdlibs.1920913581" name="No startup or default libs (-nostdlib)" superClass="com.qualcomm.hexagon.ndk.q6.c.link.option.nostdlibs" value="true" valueType="boolean"/>
+							</tool>
+							<tool command="aarch64-linux-android-g++" id="com.qualcomm.hexagon.ndk.tool.q6.cpp.linker.exe.release.1181283307" name="C++ Linker" superClass="com.qualcomm.hexagon.ndk.tool.q6.cpp.linker.exe.release">
+								<option id="com.qualcomm.hexagon.ndk.q6.cpp.link.option.libs.1672704629" name="Libraries (-l)" superClass="com.qualcomm.hexagon.ndk.q6.cpp.link.option.libs" valueType="libs">
+									<listOptionValue builtIn="false" value="c"/>
+									<listOptionValue builtIn="false" value="log"/>
+									<listOptionValue builtIn="false" value="dl"/>
+									<listOptionValue builtIn="false" value="m"/>
+									<listOptionValue builtIn="false" value="stdc++"/>
+									<listOptionValue builtIn="false" value="adsprpc"/>
+									<listOptionValue builtIn="false" value="gcc"/>
+								</option>
+								<option id="com.qualcomm.hexagon.ndk.q6.cpp.link.option.paths.721305381" name="Library search path (-L)" superClass="com.qualcomm.hexagon.ndk.q6.cpp.link.option.paths" valueType="libPaths">
+									<listOptionValue builtIn="false" value="${ANDROID_NDK_TOOLS_ROOT}/platforms/android-21/arch-arm64/usr/lib"/>
+									<listOptionValue builtIn="false" value="${HEXAGON_SDK_ROOT}/libs/common/remote/ship/android_Debug_aarch64"/>
+								</option>
+								<option id="com.qualcomm.hexagon.ndk.q6.cpp.link.option.flags.408659344" name="Linker flags" superClass="com.qualcomm.hexagon.ndk.q6.cpp.link.option.flags" value="-fpie -fPIE -pie -march=armv7-a -Wl,-unresolved-symbols=ignore-in-shared-libs -Bdynamic ${ANDROID_NDK_TOOLS_ROOT}/platforms/android-21/arch-arm64/usr/lib/crtbegin_dynamic.o ${ANDROID_NDK_TOOLS_ROOT}/platforms/android-21/arch-arm64/usr/lib/crtend_android.o" valueType="string"/>
+								<option id="com.qualcomm.hexagon.ndk.q6.cpp.link.option.nostdlibs.1174292994" name="No startup or default libs (-nostdlib)" superClass="com.qualcomm.hexagon.ndk.q6.cpp.link.option.nostdlibs" value="true" valueType="boolean"/>
+								<option id="com.qualcomm.hexagon.ndk.q6.cpp.link.option.userobjs.65921238" name="Other objects" superClass="com.qualcomm.hexagon.ndk.q6.cpp.link.option.userobjs" valueType="userObjs">
+									<listOptionValue builtIn="false" value="${HEXAGON_SDK_ROOT}/libs/common/adspmsgd/ship/android_Debug_aarch64/adspmsgd.a"/>
+								</option>
+								<inputType id="com.qualcomm.hexagon.ndk.tool.q6.cpp.linker.input.1865762257" superClass="com.qualcomm.hexagon.ndk.tool.q6.cpp.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool command="aarch64-linux-android-as" id="com.qualcomm.hexagon.ndk.tool.q6.assembler.exe.release.2104706032" name="Assembler" superClass="com.qualcomm.hexagon.ndk.tool.q6.assembler.exe.release">
+								<option id="com.qualcomm.hexagon.ndk.q6.assembler.option.debugging.level.815915572" name="Debug Level" superClass="com.qualcomm.hexagon.ndk.q6.assembler.option.debugging.level" value="com.qualcomm.hexagon.ndk.q6.asm.debugging.level.none" valueType="enumerated"/>
+								<inputType id="com.qualcomm.hexagon.ndk.tool.q6.assembler.input.2002192045" superClass="com.qualcomm.hexagon.ndk.tool.q6.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="calculator.com.qualcomm.hexagon.ndk.target.q6.exe.862121554" name="Executable" projectType="com.qualcomm.hexagon.ndk.target.q6.exe"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="com.qualcomm.hexagon.ndk.config.q6.exe.release.1129653246;com.qualcomm.hexagon.ndk.config.q6.exe.release.1129653246.;com.qualcomm.hexagon.ndk.tool.q6.cpp.compiler.exe.release.1577917960;com.qualcomm.hexagon.ndk.tool.q6.cpp.compiler.input.145469319">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.qualcomm.ndk.HexagonNDKManagedMakePerProjectProfileCPP"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.qualcomm.hexagon.ndk.config.q6.exe.debug.887449362;com.qualcomm.hexagon.ndk.config.q6.exe.debug.887449362.;com.qualcomm.hexagon.ndk.tool.q6.c.compiler.exe.debug.1492499001;com.qualcomm.hexagon.ndk.tool.q6.c.compiler.input.1458343946">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.qualcomm.hexagon.discovery.HexagonNDKManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.qualcomm.hexagon.ndk.config.q6.exe.debug.887449362;com.qualcomm.hexagon.ndk.config.q6.exe.debug.887449362.;com.qualcomm.hexagon.ndk.tool.q6.cpp.compiler.exe.debug.808869531;com.qualcomm.hexagon.ndk.tool.q6.cpp.compiler.input.58977928">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.qualcomm.ndk.HexagonNDKManagedMakePerProjectProfileCPP"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.qualcomm.hexagon.ndk.config.q6.exe.release.1129653246;com.qualcomm.hexagon.ndk.config.q6.exe.release.1129653246.;com.qualcomm.hexagon.ndk.tool.q6.c.compiler.exe.release.1244380729;com.qualcomm.hexagon.ndk.tool.q6.c.compiler.input.396344159">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.qualcomm.hexagon.discovery.HexagonNDKManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope"/>
+</cproject>

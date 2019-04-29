@@ -1,0 +1,10 @@
+src/calculator_imp.c:
+/home/oneplus/Qualcomm/Hexagon_SDK/3.4.3/incs/HAP_farf.h:
+hexagon_Release_dynamic_toolv83_v65/calculator.h:
+/home/oneplus/Qualcomm/Hexagon_SDK/3.4.3/incs/stddef/AEEStdDef.h:
+/home/oneplus/Qualcomm/Hexagon_SDK/3.4.3/incs/HAP_debug.h:
+hexagon_Release_dynamic_toolv83_v65/calculator_imp.o: src/calculator_imp.c
+hexagon_Release_dynamic_toolv83_v65/calculator_imp.o: /home/oneplus/Qualcomm/Hexagon_SDK/3.4.3/incs/HAP_farf.h
+hexagon_Release_dynamic_toolv83_v65/calculator_imp.o: hexagon_Release_dynamic_toolv83_v65/calculator.h
+hexagon_Release_dynamic_toolv83_v65/calculator_imp.o: /home/oneplus/Qualcomm/Hexagon_SDK/3.4.3/incs/stddef/AEEStdDef.h
+hexagon_Release_dynamic_toolv83_v65/calculator_imp.o: /home/oneplus/Qualcomm/Hexagon_SDK/3.4.3/incs/HAP_debug.h

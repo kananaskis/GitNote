@@ -1,0 +1,4 @@
+-rsc
+hexagon_Release_dynamic_toolv83_v65/libcalculator_skel.a
+hexagon_Release_dynamic_toolv83_v65/calculator_skel.o
+hexagon_Release_dynamic_toolv83_v65/calculator_imp.o

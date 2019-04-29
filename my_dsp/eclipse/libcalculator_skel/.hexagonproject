@@ -1,0 +1,5 @@
+<project type="global">
+   <property array="false" name="HEXAGON_TOOLS_ROOT" type="0" value=""/>
+   <property array="false" name="HEXAGON_SDK_ROOT" type="0" value=""/>
+   <property array="false" name="HexagonProcessorArchitecture" type="0" value="Default"/>
+</project>

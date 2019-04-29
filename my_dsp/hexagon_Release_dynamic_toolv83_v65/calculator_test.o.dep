@@ -1,0 +1,10 @@
+src/calculator_test.c:
+hexagon_Release_dynamic_toolv83_v65/calculator.h:
+src/calculator_test.h:
+/home/oneplus/Qualcomm/Hexagon_SDK/3.4.3/libs/common/rpcmem/hexagon_Release_dynamic_toolv83_v65/ship/rpcmem.h:
+/home/oneplus/Qualcomm/Hexagon_SDK/3.4.3/incs/stddef/AEEStdDef.h:
+hexagon_Release_dynamic_toolv83_v65/calculator_test.o: src/calculator_test.c
+hexagon_Release_dynamic_toolv83_v65/calculator_test.o: hexagon_Release_dynamic_toolv83_v65/calculator.h
+hexagon_Release_dynamic_toolv83_v65/calculator_test.o: src/calculator_test.h
+hexagon_Release_dynamic_toolv83_v65/calculator_test.o: /home/oneplus/Qualcomm/Hexagon_SDK/3.4.3/libs/common/rpcmem/hexagon_Release_dynamic_toolv83_v65/ship/rpcmem.h
+hexagon_Release_dynamic_toolv83_v65/calculator_test.o: /home/oneplus/Qualcomm/Hexagon_SDK/3.4.3/incs/stddef/AEEStdDef.h
